@@ -22,7 +22,6 @@ main() {
         else
             echo -e " Done.\nWhitelist Status Verified."
         fi
-    fi
 
     echo -e "Downloading Latest Roblox..."
     [ -f ./RobloxPlayer.zip ] && rm ./RobloxPlayer.zip
